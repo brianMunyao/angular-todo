@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": 123,
+      "title": "Buy groceries",
+      "done": true
+    },
+    {
+      "id": 23848,
+      "done": false,
+      "title": "new one"
+    },
+    {
+      "id": 30268,
+      "done": true,
+      "title": "work out"
+    }
+  ]
+}

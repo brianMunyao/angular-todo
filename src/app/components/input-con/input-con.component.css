@@ -1,0 +1,49 @@
+/* <div class="input-con">
+  <input
+    type="text"
+    (keyup)="enterKeyPressed($event, newTodo.value)"
+    name="new-task"
+    id="new-task"
+    #newTodo
+  />
+  <button (click)="addNewTodo(newTodo.value)">ADD</button>
+</div> */
+
+.input-con {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  height: 45px;
+}
+
+.input-con > * {
+  position: absolute;
+}
+.input-con input {
+  height: 100%;
+  width: 100%;
+  border: 1.5px solid #e8e8e8;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 70px 10px 10px;
+  transition: all 0.1s linear;
+}
+.input-con input:focus {
+  outline: none;
+  border: 1.5px solid teal;
+}
+
+.input-con button {
+  background: teal;
+  right: 0;
+  border: none;
+  color: #fff;
+  height: 100%;
+  font-weight: 600;
+  width: 60px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.input-con button:hover {
+  background: rgb(1, 107, 107);
+}

@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+  padding: 50px 20px;
+}
+.inner {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 2px 2px 10px #dbdbdb76;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.inner h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: rgb(234, 31, 31);
+  text-align: center;
+  padding: 2px 2px 10px;
+}

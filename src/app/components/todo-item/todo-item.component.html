@@ -1,0 +1,11 @@
+<div class="todo-item" [ngClass]="{ completed: todo.done }">
+  <div class="left">
+    <fa-icon
+      [icon]="todo.done ? faCircleCheck : faCircle"
+      (click)="todoUpdate()"
+    ></fa-icon>
+    <span>{{ todo.title }}</span>
+  </div>
+
+  <fa-icon [icon]="faTrashCan" (click)="todoDelete()"></fa-icon>
+</div>

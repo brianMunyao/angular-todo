@@ -1,0 +1,12 @@
+<form (ngSubmit)="onSubmit()">
+  <div class="input-con">
+    <input
+      id="inputValue"
+      name="inputValue"
+      type="text"
+      placeholder="Enter new todo"
+      [(ngModel)]="inputValue"
+    />
+    <button type="submit">ADD</button>
+  </div>
+</form>
